@@ -1,19 +1,27 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-// import App from './App';
+import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { Cbt } from './components/Cbt';
-// import Counter from './components/Counter'
+import Counter from './components/Counter'
+import Navbar from './components/Navbar'
+import State from './components/State'
+// import Bndout from './components/Bndout'
+
 // import Button from './components/Button'
 // import Child from './components/Child'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    {/* <App /> */}
+    <App />
     <Cbt/>
-    {/* <Counter/> */}
+    <Counter/>
+    <Navbar/>
+    <State/>
+    {/* <Bndout/> */}
+    
     {/* <Button/> */}
     {/* <Child/> */}
   </React.StrictMode>
